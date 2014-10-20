@@ -10,13 +10,13 @@
 
 
 
-        <div class="product-info" ng-init="product.bought = false;">
+        <div class="product-info" >
 
             <h3 class="product-name" ng-click="overview.goToProduct(product);">{{::product.name}}</h3>
             <h3 class="product-price">{{::product.playingTime | currency}}</h3>
-            <div class="product-buynow" ng-click="overview.buyProduct(product);product.bought=!product.bought;">
-                <span ng-hide="product.bought">BUY</span>
-                <span ng-show="product.bought">REM</span>
+            <div class="product-buynow" ng-click="overview.buyProduct(product);">
+                <span >BUY</span>
+
             </div>
         </div>
 
