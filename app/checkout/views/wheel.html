@@ -1,0 +1,17 @@
+<div class="overlay" ng-init="open">
+    <input type="checkbox" id="menu" class="menuControl" ng-checked="open" >
+    <label for="menu">
+        <div class="circle-container">
+            <button class="circle" ng-click="open = !open;" >✖</button>
+        </div>
+    </label>
+    <ul class="items">
+        <li ng-repeat="item in cart"
+            ng-click="goToProduct(item);"
+            style="background-image:url('http://localhost:3000/{{item.image}}');background-size:cover;background-position:center center;"></li>
+
+    </ul>
+</div>
+
+
+

@@ -1,0 +1,59 @@
+.product-box{
+    background-size : cover;
+    background-position : center center;
+    height : 260px;
+    position : relative;
+}
+
+.product-info{
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position : absolute;
+    bottom :0;
+    left:0;
+    background-color : #FFF;
+
+    width : 100%;
+    padding:20px;
+
+}
+.product-name,.product-price  {
+    padding:0px;
+    margin:0px;
+    font-weight:600;
+
+    font-size:15px;
+    line-height:1.3em;
+}
+.product-price{
+    color : #c3512f;
+}
+
+
+.product-single-picture{
+    width:100%;
+    height:auto;
+}
+
+.product-buynow{
+    top : 20px;
+    right : 20px;
+    position : absolute;
+    height : 2.6em;
+    width:2.6em;
+    border-radius : 1.3em;
+    background-color : #c3512f;
+    color : white;
+}
+.product-buynow span{
+    line-height : 2.6em;
+    margin-left : 5px;
+}
+
+.overlay{
+    height: 100%;
+    width : 20%;
+    position : absolute;
+    left:0;
+    top : 0;
+    z-index : 999;
+}
